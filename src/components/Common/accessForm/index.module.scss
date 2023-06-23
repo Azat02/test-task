@@ -1,0 +1,39 @@
+.list_wrapper{
+    width: 222px;
+    height: 249px;
+    background: #F9FAFB;
+    box-shadow: -30px 30px 50px rgba(28, 28, 30, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    right: -2px;
+    top: 70px;
+}
+
+.list_ul{
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+
+.list_li{
+    display: flex;
+    gap: 9px;
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424F5E;
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .list_wrapper{
+        top: 58px;
+        right: -10px;
+    }
+    .list_li{
+        font-size: 13px;
+    }
+}
+
